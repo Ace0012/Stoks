@@ -1,5 +1,26 @@
 {
   "dependencies": {
     "json-server": "^0.17.1"
-  }
+  },
+  "name": "stoks",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "json-server --watch db.json --port 9000"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ace0012/Stoks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ace0012/Stoks/issues"
+  },
+  "homepage": "https://github.com/Ace0012/Stoks#readme"
 }
